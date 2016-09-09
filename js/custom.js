@@ -39,9 +39,9 @@ $(document).ready(function(e) {
 	});
 	
 	
-	$('#contact-form').submit(function(e) {
+	/*$('#contact-form').submit(function(e) {
 		return form_to_ajax_request($(this), ['email', 'name', 'subject', 'message'], ['email', 'name', 'subject', 'message']);
-	});
+	});*/
 	
 	$('.onscroll-animate').each(function(index, element) {
 		$(this).one('inview', function (event, visible) {

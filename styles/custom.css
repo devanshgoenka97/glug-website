@@ -32,3 +32,7 @@
 .modal-content{
 	margin-top: 156px;
 }
+
+a:visited{
+	color: none;
+}

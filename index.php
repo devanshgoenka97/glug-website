@@ -1,20 +1,15 @@
-<!DOCTYPE html>
-<!--[if IE 7 ]>    <html lang="en-gb" class="isie ie7 oldie no-js"> <![endif]-->
-<!--[if IE 8 ]>    <html lang="en-gb" class="isie ie8 oldie no-js"> <![endif]-->
-<!--[if IE 9 ]>    <html lang="en-gb" class="isie ie9 no-js"> <![endif]-->
-<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en-gb" xml:lang="en-gb" class="no-js"> <!--<![endif]-->
-<head>
-	<meta charset="utf-8">
-    <!--[if lt IE 9]> 
-    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <![endif]-->
-    <meta name="description" content="GLUG website">
-    <meta name="keywords" content="GLUG NIT Durgapur">
-    <meta name="author" content="Neetesh">
-    <meta name="robots" content="index, follow">
-	<meta name="viewport" content="width=device-width, initial-scale=1">    
-    <meta property="og:image" content="club_logo.png" />
-    <link rel="icon" href="club_logo.png" type="image/png">
+<!DOCTYPE html> <!--[if IE 7 ]>    <html lang="en-gb" class="isie ie7 oldie
+no-js"> <![endif]--> <!--[if IE 8 ]>    <html lang="en-gb" class="isie ie8
+oldie no-js"> <![endif]--> <!--[if IE 9 ]>    <html lang="en-gb" class="isie
+ie9 no-js"> <![endif]--> <!--[if (gt IE 9)|!(IE)]><!--> <html lang="en-gb"
+xml:lang="en-gb" class="no-js"> <!--<![endif]--> <head>     <meta
+charset="utf-8">     <!--[if lt IE 9]>          <meta http-equiv="X-UA-
+Compatible" content="IE=edge">     <![endif]-->     <meta name="description"
+content="GLUG website">     <meta name="keywords" content="GLUG NIT Durgapur">
+<meta name="author" content="Neetesh">     <meta name="robots" content="index,
+follow">     <meta name="viewport" content="width=device-width, initial-
+scale=1">         <meta property="og:image" content="club_logo.png" /> <link
+rel="icon" href="club_logo.png" type="image/png">
 
     <!--[if lt IE 9]>
         <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -195,7 +190,7 @@
                                             <i class="fa-rocket"></i>
                                         </div>
                                         <div class="box-content">
-                                            <p>Owing to the success attained by it in recent years, it attracts a lot of participation and has been a venue where students of various age groups and domains, professionals (of both IT and non-IT fields), enthusiasts and the curious have come together to get introduced to FOSS, interact with each other and share their experiences. The intense atmosphere of competition is doubled up with Talks and Workshops by few of the brightest and most active minds in the Indian Open Source community. We will host the 10th edition of our Annual Technical Symposium on Free and Open Source Software, Mukti ‘15 from the 31st of January to the 2nd of February, 2015.</p>
+                                            <p>Owing to the success attained by it in recent years, it attracts a lot of participation and has been a venue where students of various age groups and domains, professionals (of both IT and non-IT fields), enthusiasts and the curious have come together to get introduced to FOSS, interact with each other and share their experiences. The intense atmosphere of competition is doubled up with Talks and Workshops by few of the brightest and most active minds in the Indian Open Source community. We had host the 11th edition of our Annual Technical Symposium on Free and Open Source Software, Mukti ‘16 from the 29th to the 31st of January, 2016.</p>
                                         </div>
                                         <div class="margin-50"></div>
                                     </div>
@@ -854,7 +849,6 @@
                             <h1>Reach Us</h1>
                             <p>Say hello to us, we will answer as soon as possible.</p>
                         </header>
-                        
                         <div class="margin-20"></div>
                         
                         <form class="form-contact onscroll-animate" id="contact-form" action="#" method="post" data-all-fields-required-msg="All fields are required" data-ajax-fail-msg="Ajax could not set the request" data-success-msg="Email successfully sent.">
@@ -868,7 +862,7 @@
                                     <textarea name="message" placeholder="Your Message"></textarea>
                                 </div>
                             </div>
-                            <p class="text-right"><input type="submit" value="Send mail"></p>
+                            <p class="text-right"><input type="submit" value="Send mail" onclick="send()"></p>
                             <p class="return-msg"></p>
                         </form>
                     </div><!-- .container -->
@@ -877,84 +871,11 @@
                         
             <!-- Modal Body for 2nd and 3rd year -->
             <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
-                <div class="modal-dialog modal-lg"  style="width:85%;margin-top:14%">
+                <div class="modal-dialog modal-lg"  style="width:85%;margin-top:8%">
                     <div class="modal-content">
                         <div class="row">
-                            <div class="col-xs-6 col-md-2">
-                                    <div class="onscroll-animate">
-                                        <a href="#"><h6><img src="images/bishakh.jpg" height="60" width="60" style="border-radius:60px;"  alt="Bishakh Ghosh"/>&nbsp;&nbsp;Bishakh Ghosh</h6></a>
-                                    </div>
-                            </div>
-                            <div class="col-xs-6 col-md-2">
-                                    <div class="onscroll-animate">
-                                        <a href="https://www.facebook.com/somesh.khandelia.9"><h6><img src="images/somesh.JPG" height="60" width="60" style="border-radius:60px;"  alt="Somesh Khandelia"/>&nbsp;&nbsp;Somesh Khandelia</h6></a>
-                                    </div>
-                            </div>
-                            <div class="col-xs-6 col-md-2">
-                                    <div class="onscroll-animate">
-                                        <a href="https://www.facebook.com/essdee.sud?ref=ts&fref=ts"><h6><img src="images/sudeshna.jpg" height="60" width="60" style="border-radius:60px;"  alt="Sudeshna Das"/>&nbsp;&nbsp;Sudeshna Das</h6></a>
-                                    </div>
-                            </div>
-                            <div class="col-xs-6 col-md-2">
-                                    <div class="onscroll-animate">
-                                        <a href="https://www.facebook.com/ArijitChatterjee13?ref=ts&fref=ts"><h6><img src="images/arijitc.jpg" height="60" width="60" style="border-radius:60px;"  alt="Arijit Chatterjee"/>&nbsp;&nbsp;Arijit Chatterjee</h6></a>
-                                    </div>
-                            </div>
-                            <div class="col-xs-6 col-md-2">
-                                    <div class="onscroll-animate">
-                                        <a href="https://www.facebook.com/shramana.patra.5?ref=ts&fref=ts"><h6><img src="images/shramana.jpg" height="60" width="60" style="border-radius:60px;"  alt="Shramana Patra"/>&nbsp;&nbsp;Shramana Patra</h6></a>
-                                    </div>
-                            </div>
-
-                             <div class="col-xs-6 col-md-2">
-                                    <div class="onscroll-animate">
-                                        <h6>&nbsp;&nbsp;<a href="https://www.facebook.com/nxtbig?ref=ts&fref=ts"><img src="images/adarshs.jpg" height="60" width="60" style="border-radius:60px;"  alt="Adarsh Singh"/>&nbsp;&nbsp;Adarsh Singh</h6></a>
-                                    </div>
-                            </div>
-
-                             <div class="col-xs-6 col-md-2">
-                                    <div class="onscroll-animate">
-                                        <a href="https://www.facebook.com/mailtoarko?ref=ts&fref=ts"><h6><img src="images/arka.jpg" height="60" width="60" style="border-radius:60px;"  alt="Arka Roy"/>&nbsp;&nbsp;Arka Roy</h6></a>
-                                    </div>
-                            </div>
-
-                             <div class="col-xs-6 col-md-2">
-                                    <div class="onscroll-animate">
-                                        <a href="https://www.facebook.com/profile.php?id=100005591354744&ref=ts&fref=ts"><h6><img src="images/sneh.jpg" height="60" width="60" style="border-radius:60px;"  alt="Sneh Smriti"/>&nbsp;&nbsp;Sneh Smriti</h6></a>
-                                    </div>
-                            </div>
-
-                            <div class="col-xs-6 col-md-2">
-                                    <div class="onscroll-animate">
-                                        <a href="https://www.facebook.com/jennifer.andrews.7587?ref=ts&fref=ts"><h6><img src="images/ananya.jpg" height="60" width="60" style="border-radius:60px;"  alt="Ananya Yashasvi"/>&nbsp;&nbsp;Ananya Yashasvi</h6></a>
-                                    </div>
-                            </div>
-
-                            <div class="col-xs-6 col-md-2">
-                                    <div class="onscroll-animate">
-                                        <a href="https://www.facebook.com/debanjan.ck?ref=ts&fref=ts"><h6><img src="images/debanjan.jpg" height="60" width="60" style="border-radius:60px;"  alt="Debanjan Saha"/>&nbsp;&nbsp;Debanjan Saha</h6></a>
-                                    </div>
-                            </div>
-
-                            <div class="col-xs-6 col-md-2">
-                                    <div class="onscroll-animate">
-                                        <a href="https://www.facebook.com/profile.php?id=100000376768789&ref=ts&fref=ts"><h6><img src="images/sneha.jpg" height="60" width="60" style="border-radius:60px;"  alt="Sneha Singh"/>&nbsp;&nbsp;Sneha Singh</h6></a>
-                                    </div>
-                            </div>
-
-                            <div class="col-xs-6 col-md-2">
-                                    <div class="onscroll-animate">
-                                        <h6>&nbsp;&nbsp;<a href="https://www.facebook.com/amandeep1024?ref=ts&fref=ts"><img src="images/aman.jpg" height="60" width="60" style="border-radius:60px;"  alt="Aman Deep"/>&nbsp;&nbsp;Aman Deep</h6></a>
-                                    </div>
-                            </div>
-
-                            <div class="col-xs-6 col-md-2">
-                                    <div class="onscroll-animate">
-                                        <a href="https://www.facebook.com/happypiyush?ref=ts&fref=ts"><h6><img src="images/piyush.jpg" height="60" width="60" style="border-radius:60px;"  alt="Piyush Agrawal"/>&nbsp;&nbsp;Piyush Agrawal</h6></a>
-                                    </div>
-                            </div>
                             <?php
-                            $arr=array("Devansh Goenka"=>"devansh97","Atul Behera"=>"atulb7777","Shreyashee Sinha"=>"sinha23","Vivek Modi"=>"vivek.modi.007","Mayank Agarwal"=>"1495.mayank","Himanshu Kumar"=>"himanshueight","Divyanshu Mehta"=>"divyanshu.mehta.779", "Amit Tulshyan"=>"atulshyan","Ashutosh Ray"=>"ashutosh.ray.50","Sudeshna Sen"=>"sudeshna.sen.1654","Arnav Kumar"=>"Arnav.grv","Deeksha Chandwani"=>"deeksha.chandwani.9");
+                            $arr=array("Sudeshna Das"=>"essdee.sud","Bisakh Ghosh"=>"#","Debanjan Saha"=>"debanjan.ck","Sneha Singh"=>"profile.php?id=100000376768789","Piyush Agrawal"=>"happypiyush","Aman Deep"=>"amandeep1024","Ananya Yashasvi"=>"jennifer.andrews.7587","Sneh Smriti"=>"profile.php?id=100005591354744","Arka Roy"=>"mailtoarko","Adarsh Singh"=>"nxtbig","Shramana Patra"=>"shramana.patra.5","Arijit Chatterjee"=>"ArijitChatterjee13","Somesh Khandelia"=>"somesh.khandelia.9","Devansh Goenka"=>"devansh97","Atul Behera"=>"atulb7777","Shreyashee Sinha"=>"sinha23","Vivek Modi"=>"vivek.modi.007","Mayank Agarwal"=>"1495.mayank","Himanshu Kumar"=>"himanshueight","Divyanshu Mehta"=>"divyanshu.mehta.779", "Amit Tulshyan"=>"atulshyan","Ashutosh Ray"=>"ashutosh.ray.50","Sudeshna Sen"=>"sudeshna.sen.1654","Arnav Kumar"=>"Arnav.grv","Deeksha Chandwani"=>"deeksha.chandwani.9");
                             foreach ($arr as $key=>$value) {
                                 //Deeksha's name was too long :P
                                 if($key=="Deeksha Chandwani")
@@ -962,16 +883,18 @@
                                     $img = explode(" ", $key)[0];
                                     echo '<div class="col-xs-6 col-md-2" style="width:220px">
                                     <div class="onscroll-animate">
-                                        <h6>&nbsp;&nbsp;<a href="https://www.facebook.com/'.$value.'"><img src="images/'.$img.'.jpg" height="60" width="60" style="border-radius:60px;"  alt="'.$key.'"/>&nbsp;&nbsp;'.$key.'</h6></a>
+                                        <h6 style="font-weight:500">&nbsp;&nbsp;<a href="https://www.facebook.com/'.$value.'" style="text-decoration:none"><img src="images/'.$img.'.jpg" height="60" width="60" style="border-radius:60px;"  alt="'.$key.'"/>&nbsp;&nbsp;'.$key.'</h6></a>
                                     </div>
                             </div>';
                                  }
                             else
                             {
                                 $img = explode(" ", $key)[0];
+                                if($key=="Sudeshna Das")
+                                    $img.='d';
                                 echo '<div class="col-xs-6 col-md-2">
                                     <div class="onscroll-animate">
-                                        <h6>&nbsp;&nbsp;<a href="https://www.facebook.com/'.$value.'"><img src="images/'.$img.'.jpg" height="60" width="60" style="border-radius:60px;"  alt="'.$key.'"/>&nbsp;&nbsp;'.$key.'</h6></a>
+                                        <h6 style="font-weight:500">&nbsp;&nbsp;<a href="https://www.facebook.com/'.$value.'" style="text-decoration:none"><img src="images/'.$img.'.jpg" height="60" width="60" style="border-radius:60px;"  alt="'.$key.'"/>&nbsp;&nbsp;'.$key.'</h6></a>
                                     </div>
                             </div>';
                         }
@@ -1018,5 +941,11 @@
     <script type="text/javascript" src="js/placeholder-fallback.js"></script>
     <script type="text/javascript" src="js/pre.js"></script>
 	<script type="text/javascript" src="js/custom.js"></script>
+    <!--<script type="text/javascript">
+        function send()
+        {
+            $.post("mail.php",$("#contact-form").serialize(),function(data) { alert(data);});
+        }
+    </script>-->
 </body>
 </html>
